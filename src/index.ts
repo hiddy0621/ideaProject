@@ -9,14 +9,19 @@
 // primitiveSample()
 // nonExist()
 
-import { logMessage } from './function/basic'
-import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/paramaters'
-const message = 'やっほー'
-logMessage(message)
+// import { logMessage } from './function/basic'
+// import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/paramaters'
+// const message = 'やっほー'
+// logMessage(message)
 
-isUserSignedIn('ABC', 'hiddy0621')
-isUserSignedIn2('ABC')
+// isUserSignedIn('ABC', 'hiddy0621')
+// isUserSignedIn2('ABC')
 
-const sum = sumProductsPrice(100, 200, 300, 400)
+// const sum = sumProductsPrice(100, 200, 300, 400)
 
-console.log(sum)
+// console.log(sum)
+
+import typeAliasSample from './object/alias'
+import { objectSample } from './object/object'
+objectSample()
+typeAliasSample()
