@@ -21,7 +21,15 @@
 
 // console.log(sum)
 
+
 import typeAliasSample from './object/alias'
 import { objectSample } from './object/object'
 objectSample()
 typeAliasSample()
+import tupleSample from './array/tuple'
+import arraySample from './array'
+import immutableSample from './array/immutable'
+arraySample()
+tupleSample()
+immutableSample()
+
