@@ -32,7 +32,10 @@
 // tupleSample()
 // immutableSample()
 
-import advancedGenericSample from './generic/advanced'
-import genericSample from './generic/basic'
-genericSample()
-advancedGenericSample()
+// import advancedGenericSample from './generic/advanced'
+// import genericSample from './generic/basic'
+// genericSample()
+// advancedGenericSample()
+
+import interfaceSample from './interface/interface'
+interfaceSample()
