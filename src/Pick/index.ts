@@ -10,7 +10,9 @@ export default function pickSample() {
     createdAt: string
     updatedAt: string
   }
-  type Person = Pick<User, 'surname' | 'middleName' | 'givenName'>
+  // Keysは、 変数だと認識されないので型エイリアスで。
+  type Optional = 'surname' | 'middleName' | 'givenName'
+  type Person = Pick<User, Optional>
   // これと同義となる
   // type Person = {
   //   surname: string;
