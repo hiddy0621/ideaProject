@@ -77,5 +77,7 @@
 // overrideSample()
 
 import utilitySample from './utility/partial'
+import recordSample from './utility/record'
 
 utilitySample()
+recordSample()
