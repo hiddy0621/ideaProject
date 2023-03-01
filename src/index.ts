@@ -72,6 +72,10 @@
 
 // thisSample()
 
-import overrideSample from './override'
+// import overrideSample from './override'
 
-overrideSample()
+// overrideSample()
+
+import utilitySample from './utility/partial'
+
+utilitySample()
