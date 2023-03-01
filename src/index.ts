@@ -60,6 +60,14 @@
 
 // unknownSample()
 
-import neverSample from './never'
+// import neverSample from './never'
 
-neverSample()
+// neverSample()
+
+// import practiceSample from "./function/practice";
+
+// practiceSample()
+
+import thisSample from './this'
+
+thisSample()
