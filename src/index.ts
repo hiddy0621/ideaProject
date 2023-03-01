@@ -68,6 +68,10 @@
 
 // practiceSample()
 
-import thisSample from './this'
+// import thisSample from './this'
 
-thisSample()
+// thisSample()
+
+import overrideSample from './override'
+
+overrideSample()
