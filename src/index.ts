@@ -56,6 +56,10 @@
 
 // nullVoidSample()
 
-import unknownSample from './unknown'
+// import unknownSample from './unknown'
 
-unknownSample()
+// unknownSample()
+
+import neverSample from './never'
+
+neverSample()
