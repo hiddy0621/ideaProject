@@ -33,8 +33,8 @@ export default function typeGeneration() {
     zh: '您确定吗？',
   } as const
   type Language = keyof typeof conf
-  type TypeOfLang = typeof conf
-  type Lang = keyof TypeOfLang
+  // type TypeOfLang = typeof conf
+  // type Lang = keyof TypeOfLang
   // type Language = Omit<TypeOfLang, "zh">
 
   // オブジェクトからプロパティの型を生成する
