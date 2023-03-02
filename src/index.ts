@@ -82,5 +82,8 @@
 // utilitySample()
 // recordSample()
 
-import tips from './tips'
-tips()
+// import tips from './tips'
+// tips()
+
+import typeGeneration from './type-generation'
+typeGeneration()
