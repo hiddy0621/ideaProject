@@ -76,8 +76,11 @@
 
 // overrideSample()
 
-import utilitySample from './utility/partial'
-import recordSample from './utility/record'
+// import utilitySample from './utility/partial'
+// import recordSample from './utility/record'
 
-utilitySample()
-recordSample()
+// utilitySample()
+// recordSample()
+
+import tips from './tips'
+tips()
